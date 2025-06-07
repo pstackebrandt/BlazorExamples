@@ -482,3 +482,30 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# .NET Aspire
+.aspire/
+*.aspire.yaml
+.aspire-session.json
+
+# Container related
+.containers/
+docker-compose.override.yml
+**/charts/
+**/docker-compose*
+**/Dockerfile*
+**/chart/
+Dockerfile.develop
+**/azds.yaml
+
+# Hot Reload
+*.tmp
+.dotnet/
+
+# OpenTelemetry and observability
+otlp-logs/
+tracing/
+*.otel
+
+# Development certificates
+dev-certs/
